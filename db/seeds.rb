@@ -31,7 +31,7 @@ end
 
 30.times do
   PurchasedItem.create(
-    buyer: [monster, parrot, gilly, whiskers, sloth].sample
+    buyer: [monster, parrot, gilly, whiskers, sloth].sample,
     item: Item.all.sample
   )
 end
